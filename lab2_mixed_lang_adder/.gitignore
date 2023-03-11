@@ -1,0 +1,52 @@
+# gitignore template for Xilinx Vivado Design Suite
+# website: https://www.xilinx.com/support/download.html
+build/*
+!build/.keep
+
+# [home]
+*.jou
+*.log
+*.debug
+*.str
+*.zip
+*.tmp
+*.rst
+*.os
+*.js
+*.pb
+*.dcp
+*.hwdef
+*.vds
+*.veo
+*.wdf
+*.vdi
+*.dmp
+*.rpx
+*.rpt
+*_stub.v
+*_stub.vhdl
+*_funcsim.v
+*_funcsim.vhdl
+.project
+
+# [dir]
+*.cache
+.metadata
+*.data
+*.ipdefs
+.Xil/*
+*.sdk
+*.hw
+*.ip_user_files
+intro_proj/*
+
+### IP synth
+*_synth_*
+.jobs
+
+# VSCODE
+.vscode/*
+.history/
+*.vsix
+
+

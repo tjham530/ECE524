@@ -1,0 +1,1 @@
+Errors: need to change the if/else comparison to unsigned not std_logic_vector!!
